@@ -1,208 +1,88 @@
-# Sinclair ZX Spectrum Sinclair BASIC Source Code Vault
+# Sixty Programs for the Sinclair ZX Spectrum
 
 <p align="center">
-  <img src="images/sir-clive-sinclair-zx-spectrum.webp" alt="Sir Clive Sinclair holding a Sinclair ZX Spectrum computer" width="420">
+  <img src="images/sir-clive-sinclair-zx-spectrum.webp" alt="Sir Clive Sinclair with a Sinclair ZX Spectrum" width="420">
 </p>
 
-Wagwan, fam. Picture the scene. It’s 1983. You’ve got a rubber-keyed ZX Spectrum humming away with a massive 16K of RAM. Absolute top tier.
-
-Back then, legends like Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews dropped a [mad book](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum) [(also available here)](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum) filled with brilliant code. But there was a massive catch. You had to sit there for hours typing out every single line of Sinclair BASIC by hand. Peak suffering, innit. One typo and your rocket explodes.
-
-Not anymore, bruv. There are no binary tape images here—this is a clean source code repository containing the raw **Sinclair BASIC source files**. We’ve pulled these straight off the disk copies, audited the entire collection thrice to plug any gaps, and laid out the plain-text source code for you to inspect, modify, and hack. Pure 8-bit retro engineering.
-
----
-
-## The Drop: All 60 Source Code Files Audited Thrice
-
-Every single file here has been checked over three times straight from the disk copies so nothing's missing, corrupted, or clapped out.
-
-* **Alien**: Blast off incoming extraterrestrial threats.
-
-
-* **Ambush**: Quick-reflex tactical showdown.
-
-
-* **Anagrammatic**: Scrambled word tests for your brain.
-
-
-* **Asset Stripper**: High-stakes corporate financial maneuvering.
-
-
-* **Battleships**: Classic coordinate guessing game.
-
-
-* **Biorhythms**: Vintage pseudo-science cycle tracker.
-
-
-* **Bricklayer**: Construction planning puzzle.
-
-
-* **Bulls and Cows**: Number-crunching code breaker.
-
-
-* **Buzzy Bee**: Fast-paced counting and agility test.
-
-
-* **Championship Boxing**: Ring combat and stamina management.
-
-
-* **Chomper**: Maze-chasing arcade legend.
-
-
-* **Countabout**: Speed arithmetic challenge.
-
-
-* **Critical Path Analysis**: Early project workflow manager.
-
-
-* **Dam Eaters**: Precision aerial bombing run.
-
-
-* **Dambusters**: Tactical historical air raid simulation.
-
-
-* **Defend**: Protect your base from incoming doom.
-
-
-* **Dogfight**: Dogfighting high up in the retro clouds.
-
-
-* **Drag Racer**: Straight-line speed acceleration test.
-
-
-* **Endings**: Interactive story generator.
-
-
-* **Energy Fields**: Sine-wave visual graphics generator.
-
-
-* **Evolution 1**: Ecosystem growth simulator.
-
-
-* **Evolution 2**: Phase two biological progression.
-
-
-* **Evolution 3**: Advanced population simulation.
-
-
-* **Exocet**: Missile command tactical defense.
-
-
-* **Fall Guy**: Gravity-defying hazard dodge.
-
-
-* **Flying Bomb**: Precision strike arcade challenge.
-
-
-* **Flying Geese**: Timing and coordination puzzle.
-
-
-* **Galaxians**: Fixed shooter arcade heater.
-
-
-* **Giant Rats**: Survive the rodent onslaught, yeah?.
-
-
-* **Grand Prix**: Formula racing track simulator.
-
-
-* **Hangman**: Classic word-guessing pen-and-paper game.
-
-
-* **Heli-Bomber**: Chopper airstrike coordination.
-
-
-* **Holiday Expenses**: Travel budgeting calculator.
-
-
-* **Horse Race**: Track odds and betting simulator.
-
-
-* **Invaders**: The definitive alien-blasting classic.
-
-
-* **Minelay**: Strategic naval mine defense.
-
-
-* **Moonlander**: Physics-heavy lunar descent controller.
-
-
-* **Morse Tutor**: Telegraphy audio-visual code trainer.
-
-
-* **Motocross**: Off-road scrolling obstacle track.
-
-
-* **Mushroom Invasion**: Weird and wonderful fungal defense.
-
-
-* **Newmarket**: Card-table betting simulator.
-
-
-* **Number Systems**: Binary, decimal, and hex math tool.
-
-
-* **OXO**: The timeless Tic-Tac-Toe showdown.
-
-
-* **Paypackets**: Small-business payroll calculator.
-
-
-* **Picture Pairs**: Custom graphics memory match.
-
-
-* **Postman**: Postal routing logic puzzle.
-
-
-* **Radiopower**: Signal and frequency calculations.
-
-
-* **Roots**: Square root calculation trainer.
-
-
-* **Russian Roulette**: High-tension probability gamble.
-
-
-* **Scuba**: Underwater hazard-dodging exploration.
-
-
-* **Sheepdog Trials**: Strategic herd management.
-
-
-* **Snap**: Fast reflex card matcher.
-
-
-* **Space Traffic**: Cosmic lane collision avoidance.
-
-
-* **Stellar Run**: High-speed space corridor survival.
-
-
-* **Swordsman**: Close-quarters blade action.
-
-
-* **Tanx**: Grid-based armored vehicle warfare.
-
-
-* **Toptrainer**: Sports tactics management simulator.
-
-
-* **Tug-of-War**: Button-mashing strength contest.
-
-
-* **Wordsum**: Vocabulary and word logic test.
-
-
-* **Xmas Eve**: Festive holiday novelty program.
-
-
-
----
-
-## How to Work With These Source Files
-
-Don't stress, blud. Since these are raw Sinclair BASIC source code files rather than closed tape binaries, you can read, study, or compile them directly:
-
-1. Clone or download this source code repository.
-2. Open the individual BASIC source files in any standard text editor to read or modify the 1980s code logic.
-3. Use modern ZX Spectrum development tools (like `BAS2TAP` or cross-compilers) to tokenize the source files into executable formats if you want to run them on an emulator. Safe.
+SANYALnet Labs presents all 60 programs from *Sixty Programs for the Sinclair ZX Spectrum* (1983), by Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews. The collection has plain-text Sinclair BASIC listings, ZX Spectrum tape images, instructions, and genuine FUSE screenshots. The computer has done the typing for you. It seemed only fair.
+
+You can read the [book on the Internet Archive](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum), or see the [Spectrum Computing book entry](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum).
+
+## Running a program
+
+Open its folder under [`PROGRAMS/`](PROGRAMS/). Each contains a `.bas` listing, a non-auto-run `.tzx` tape, `README.TXT`, `KEYS-AND-TIMING.TXT`, real FUSE screenshots, and a `REPLAY.sh` helper. Some include a separate introduction replay script.
+
+In FUSE on a 48K Spectrum, attach the `.tzx` tape, load it with `LOAD ""`, then enter `RUN` after loading finishes. The tapes do not auto-run. Read each program's `README.TXT` for the book page numbers and controls. The replay script documents the recorded key sequence and timing; it is a Linux/FUSE helper, not a BASIC compiler.
+
+## All 60 programs
+
+The images are taken from the collection's FUSE sessions. Select a title to open its folder, or an image to see the original capture.
+
+| No. / Program | What it does | FUSE screenshot |
+| :-- | :-- | :-- |
+| **01. [Minelay](PROGRAMS/01-minelay/)**<br>Book pp. 7-10 | Collect gold and avoid mines while moving through a maze. | [<img src="PROGRAMS/01-minelay/SCREENSHOTS/02-MAIN.png" alt="Minelay running in FUSE" width="230">](PROGRAMS/01-minelay/SCREENSHOTS/02-MAIN.png) |
+| **02. [Fall Guy](PROGRAMS/02-fall-guy/)**<br>Book pp. 11-15 | Guide players through a two-player maze using movement keys. | [<img src="PROGRAMS/02-fall-guy/SCREENSHOTS/03-AFTER-INPUT.png" alt="Fall Guy running in FUSE" width="230">](PROGRAMS/02-fall-guy/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **03. [Tug Of War](PROGRAMS/03-tug-of-war/)**<br>Book pp. 16-19 | A two-sided tug-of-war game played from the keyboard. | [<img src="PROGRAMS/03-tug-of-war/SCREENSHOTS/03-AFTER-INPUT.png" alt="Tug Of War running in FUSE" width="230">](PROGRAMS/03-tug-of-war/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **04. [Horse Race](PROGRAMS/04-horse-race/)**<br>Book pp. 20-23 | Choose a horse race and watch the runners compete on the track. | [<img src="PROGRAMS/04-horse-race/SCREENSHOTS/02-AFTER-INPUT.png" alt="Horse Race running in FUSE" width="230">](PROGRAMS/04-horse-race/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **05. [Championship Boxing](PROGRAMS/05-championship-boxing/)**<br>Book pp. 24-29 | Box in a timed bout with two fighters in the ring. | [<img src="PROGRAMS/05-championship-boxing/SCREENSHOTS/02-AFTER-INPUT.png" alt="Championship Boxing running in FUSE" width="230">](PROGRAMS/05-championship-boxing/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **06. [Motocross](PROGRAMS/06-motocross/)**<br>Book pp. 30-33 | Ride an obstacle course and time your jumps. | [<img src="PROGRAMS/06-motocross/SCREENSHOTS/02-AFTER-INPUT.png" alt="Motocross running in FUSE" width="230">](PROGRAMS/06-motocross/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **07. [Critical Path Analysis](PROGRAMS/07-critical-path-analysis/)**<br>Book pp. 34-38 | Enter network nodes to draw a critical-path diagram. | [<img src="PROGRAMS/07-critical-path-analysis/SCREENSHOTS/03-AFTER-INPUT.png" alt="Critical Path Analysis running in FUSE" width="230">](PROGRAMS/07-critical-path-analysis/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **08. [Chomper](PROGRAMS/08-chomper/)**<br>Book pp. 39-43 | Guide Chomper through a maze, collect pellets, and score points. | [<img src="PROGRAMS/08-chomper/SCREENSHOTS/03-AFTER-INPUT.png" alt="Chomper running in FUSE" width="230">](PROGRAMS/08-chomper/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **09. [Battleships](PROGRAMS/09-battleships/)**<br>Book pp. 44-48 | Place ships on a grid and play a coordinate-based naval battle. | [<img src="PROGRAMS/09-battleships/SCREENSHOTS/03-AFTER-INPUT.png" alt="Battleships running in FUSE" width="230">](PROGRAMS/09-battleships/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **10. [Tanx](PROGRAMS/10-tanx/)**<br>Book pp. 49-52 | Set tank positions and firing angles in a turn-based battle. | [<img src="PROGRAMS/10-tanx/SCREENSHOTS/03-AFTER-INPUT.png" alt="Tanx running in FUSE" width="230">](PROGRAMS/10-tanx/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **11. [Defend](PROGRAMS/11-defend/)**<br>Book pp. 53-57 | Defend a terrain-based field against moving aliens. | [<img src="PROGRAMS/11-defend/SCREENSHOTS/03-AFTER-INPUT.png" alt="Defend running in FUSE" width="230">](PROGRAMS/11-defend/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **12. [Flying Bomb](PROGRAMS/12-flying-bomb/)**<br>Book pp. 58-60 | Pilot an aircraft and choose when to drop a bomb. | [<img src="PROGRAMS/12-flying-bomb/SCREENSHOTS/02-AFTER-INPUT.png" alt="Flying Bomb running in FUSE" width="230">](PROGRAMS/12-flying-bomb/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **13. [Radio Power](PROGRAMS/13-radio-power/)**<br>Book pp. 61-69 | Enter a radio station and inspect the resulting coverage map. | [<img src="PROGRAMS/13-radio-power/SCREENSHOTS/03-AFTER-INPUT.png" alt="Radio Power running in FUSE" width="230">](PROGRAMS/13-radio-power/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **14. [Scuba](PROGRAMS/14-scuba/)**<br>Book pp. 70-76 | Explore underwater and catch fish while keeping count. | [<img src="PROGRAMS/14-scuba/SCREENSHOTS/03-AFTER-INPUT.png" alt="Scuba running in FUSE" width="230">](PROGRAMS/14-scuba/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **15. [Endings](PROGRAMS/15-endings/)**<br>Book pp. 77-82 | Take turns building words in a game against the computer. | [<img src="PROGRAMS/15-endings/SCREENSHOTS/01-COMPUTER-RESPONSE.png" alt="Endings running in FUSE" width="230">](PROGRAMS/15-endings/SCREENSHOTS/01-COMPUTER-RESPONSE.png) |
+| **16. [Snap](PROGRAMS/16-snap/)**<br>Book pp. 83-86 | Play a picture-based matching game and respond with the keyboard. | [<img src="PROGRAMS/16-snap/SCREENSHOTS/02-AFTER-INPUT.png" alt="Snap running in FUSE" width="230">](PROGRAMS/16-snap/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **17. [Paypackets](PROGRAMS/17-paypackets/)**<br>Book pp. 87-90 | Calculate pay packets from an entered amount and packet count. | [<img src="PROGRAMS/17-paypackets/SCREENSHOTS/01-PAYMENT-SCREEN.png" alt="Paypackets running in FUSE" width="230">](PROGRAMS/17-paypackets/SCREENSHOTS/01-PAYMENT-SCREEN.png) |
+| **18. [Newmarket](PROGRAMS/18-newmarket/)**<br>Book pp. 91-95 | Choose a horse and follow its progress in a Newmarket race. | [<img src="PROGRAMS/18-newmarket/SCREENSHOTS/03-AFTER-INPUT.png" alt="Newmarket running in FUSE" width="230">](PROGRAMS/18-newmarket/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **19. [Hobday Expenses](PROGRAMS/19-hobday-expenses/)**<br>Book pp. 96-103 | Enter holiday expenses and calculate currency amounts. | [<img src="PROGRAMS/19-hobday-expenses/SCREENSHOTS/03-AFTER-INPUT.png" alt="Hobday Expenses running in FUSE" width="230">](PROGRAMS/19-hobday-expenses/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **20. [Ambush](PROGRAMS/20-ambush/)**<br>Book pp. 104-108 | Use the controls in an arcade game called Ambush. | [<img src="PROGRAMS/20-ambush/SCREENSHOTS/03-AFTER-INPUT.png" alt="Ambush running in FUSE" width="230">](PROGRAMS/20-ambush/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **21. [Numbers](PROGRAMS/21-numbers/)**<br>Book pp. 109-114 | Convert between number systems, including Roman numerals. | [<img src="PROGRAMS/21-numbers/SCREENSHOTS/03-AFTER-INPUT.png" alt="Numbers running in FUSE" width="230">](PROGRAMS/21-numbers/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **22. [Top Trainer](PROGRAMS/22-top-trainer/)**<br>Book pp. 115-124 | Manage horses and money on a horse-trading board. | [<img src="PROGRAMS/22-top-trainer/SCREENSHOTS/02-RACE-SCREEN.png" alt="Top Trainer running in FUSE" width="230">](PROGRAMS/22-top-trainer/SCREENSHOTS/02-RACE-SCREEN.png) |
+| **23. [Biorhythms](PROGRAMS/23-biorhythms/)**<br>Book pp. 125-127 | Calculate and plot biorhythm curves from dates. | [<img src="PROGRAMS/23-biorhythms/SCREENSHOTS/03-AFTER-INPUT.png" alt="Biorhythms running in FUSE" width="230">](PROGRAMS/23-biorhythms/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **24. [Aben](PROGRAMS/24-aben/)**<br>Book pp. 128-130 | Move and shoot through an alien arcade game. | [<img src="PROGRAMS/24-aben/SCREENSHOTS/02-AFTER-INPUT.png" alt="Aben running in FUSE" width="230">](PROGRAMS/24-aben/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **25. [Galaxians](PROGRAMS/25-galaxians/)**<br>Book pp. 131-134 | Move and fire in an arcade game against space enemies. | [<img src="PROGRAMS/25-galaxians/SCREENSHOTS/03-AFTER-INPUT.png" alt="Galaxians running in FUSE" width="230">](PROGRAMS/25-galaxians/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **26. [Sheep Dog Trials](PROGRAMS/26-sheep-dog-trials/)**<br>Book pp. 135-138 | Guide a sheepdog through trials and earn points. | [<img src="PROGRAMS/26-sheep-dog-trials/SCREENSHOTS/03-AFTER-INPUT.png" alt="Sheep Dog Trials running in FUSE" width="230">](PROGRAMS/26-sheep-dog-trials/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **27. [Picture Pairs](PROGRAMS/27-picture-pairs/)**<br>Book pp. 139-144 | Reveal tiles in a picture-pair memory game. | [<img src="PROGRAMS/27-picture-pairs/SCREENSHOTS/01-REVEALED-BOARD.png" alt="Picture Pairs running in FUSE" width="230">](PROGRAMS/27-picture-pairs/SCREENSHOTS/01-REVEALED-BOARD.png) |
+| **28. [Dam Busters](PROGRAMS/28-dam-busters/)**<br>Book pp. 145-148 | Use flight controls to line up a bombing run. | [<img src="PROGRAMS/28-dam-busters/SCREENSHOTS/03-AFTER-INPUT.png" alt="Dam Busters running in FUSE" width="230">](PROGRAMS/28-dam-busters/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **29. [Oxo](PROGRAMS/29-oxo/)**<br>Book pp. 149-151 | Play noughts and crosses against a game opponent. | [<img src="PROGRAMS/29-oxo/SCREENSHOTS/03-AFTER-INPUT.png" alt="Oxo running in FUSE" width="230">](PROGRAMS/29-oxo/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **30. [Space Traffic](PROGRAMS/30-space-traffic/)**<br>Book pp. 152-155 | Steer and fire a laser in a space-traffic arcade game. | [<img src="PROGRAMS/30-space-traffic/SCREENSHOTS/02-FLIGHT.png" alt="Space Traffic running in FUSE" width="230">](PROGRAMS/30-space-traffic/SCREENSHOTS/02-FLIGHT.png) |
+| **31. [Dam Eaters](PROGRAMS/31-dam-eaters/)**<br>Book pp. 156-159 | Aim and drop a bomb at a dam target. | [<img src="PROGRAMS/31-dam-eaters/SCREENSHOTS/03-AFTER-INPUT.png" alt="Dam Eaters running in FUSE" width="230">](PROGRAMS/31-dam-eaters/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **32. [Buzzy Bee](PROGRAMS/32-buzzy-bee/)**<br>Book pp. 160-163 | Move Buzzy Bee among plants and flowers. | [<img src="PROGRAMS/32-buzzy-bee/SCREENSHOTS/03-AFTER-INPUT.png" alt="Buzzy Bee running in FUSE" width="230">](PROGRAMS/32-buzzy-bee/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **33. [Heli Bomber](PROGRAMS/33-heli-bomber/)**<br>Book pp. 164-167 | Pilot a helicopter in an arcade bombing game. | [<img src="PROGRAMS/33-heli-bomber/SCREENSHOTS/02-AFTER-INPUT.png" alt="Heli Bomber running in FUSE" width="230">](PROGRAMS/33-heli-bomber/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **34. [Grand Prix](PROGRAMS/34-grand-prix/)**<br>Book pp. 168-172 | Drive around a Grand Prix racing circuit. | [<img src="PROGRAMS/34-grand-prix/SCREENSHOTS/03-AFTER-INPUT.png" alt="Grand Prix running in FUSE" width="230">](PROGRAMS/34-grand-prix/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **35. [Giant Rats](PROGRAMS/35-giant-rats/)**<br>Book pp. 173-176 | Navigate a maze occupied by giant rats. | [<img src="PROGRAMS/35-giant-rats/SCREENSHOTS/03-AFTER-INPUT.png" alt="Giant Rats running in FUSE" width="230">](PROGRAMS/35-giant-rats/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **36. [Postman](PROGRAMS/36-postman/)**<br>Book pp. 177-180 | Follow a postal route while the clock runs. | [<img src="PROGRAMS/36-postman/SCREENSHOTS/03-AFTER-INPUT.png" alt="Postman running in FUSE" width="230">](PROGRAMS/36-postman/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **37. [Xmas Eve](PROGRAMS/37-xmas-eve/)**<br>Book pp. 181-184 | Play a Christmas game and collect presents. | [<img src="PROGRAMS/37-xmas-eve/SCREENSHOTS/03-AFTER-INPUT.png" alt="Xmas Eve running in FUSE" width="230">](PROGRAMS/37-xmas-eve/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **38. [Morse Tutor](PROGRAMS/38-morse-tutor/)**<br>Book pp. 185-189 | Study Morse code with a chart of dots and dashes. | [<img src="PROGRAMS/38-morse-tutor/SCREENSHOTS/02-MAIN.png" alt="Morse Tutor running in FUSE" width="230">](PROGRAMS/38-morse-tutor/SCREENSHOTS/02-MAIN.png) |
+| **39. [Flying Geese](PROGRAMS/39-flying-geese/)**<br>Book pp. 190-191 | Aim and fire at moving geese in an arcade game. | [<img src="PROGRAMS/39-flying-geese/SCREENSHOTS/02-AFTER-INPUT.png" alt="Flying Geese running in FUSE" width="230">](PROGRAMS/39-flying-geese/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **40. [Wordsum](PROGRAMS/40-wordsum/)**<br>Book pp. 192-194 | Solve scrambled words and reveal readable answers. | [<img src="PROGRAMS/40-wordsum/SCREENSHOTS/02-AFTER-INPUT.png" alt="Wordsum running in FUSE" width="230">](PROGRAMS/40-wordsum/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **41. [Asset Stripper](PROGRAMS/41-asset-stripper/)**<br>Book pp. 195-204 | Enter account details and view a financial report. | [<img src="PROGRAMS/41-asset-stripper/SCREENSHOTS/01-ACCOUNT-REPORT.png" alt="Asset Stripper running in FUSE" width="230">](PROGRAMS/41-asset-stripper/SCREENSHOTS/01-ACCOUNT-REPORT.png) |
+| **42. [Bricklayer](PROGRAMS/42-bricklayer/)**<br>Book pp. 205-207 | Play Bricklayer and watch your remaining lives. | [<img src="PROGRAMS/42-bricklayer/SCREENSHOTS/02-GAMEPLAY.png" alt="Bricklayer running in FUSE" width="230">](PROGRAMS/42-bricklayer/SCREENSHOTS/02-GAMEPLAY.png) |
+| **43. [Dogfight](PROGRAMS/43-dogfight/)**<br>Book pp. 208-212 | Control aircraft during a dogfight. | [<img src="PROGRAMS/43-dogfight/SCREENSHOTS/02-AFTER-INPUT.png" alt="Dogfight running in FUSE" width="230">](PROGRAMS/43-dogfight/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **44. [Evolution 1](PROGRAMS/44-evolution-1/)**<br>Book pp. 213-218 | Play the first Evolution game and see the result of an attempt. | [<img src="PROGRAMS/44-evolution-1/SCREENSHOTS/03-AFTER-INPUT.png" alt="Evolution 1 running in FUSE" width="230">](PROGRAMS/44-evolution-1/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **45. [Evolution 2](PROGRAMS/45-evolution-2/)**<br>Book pp. 219-224 | Move through a tree and obstacle field in Evolution 2. | [<img src="PROGRAMS/45-evolution-2/SCREENSHOTS/03-AFTER-INPUT.png" alt="Evolution 2 running in FUSE" width="230">](PROGRAMS/45-evolution-2/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **46. [Evolution 3](PROGRAMS/46-evolution-3/)**<br>Book pp. 225-230 | Navigate the Evolution 3 world map and encounters. | [<img src="PROGRAMS/46-evolution-3/SCREENSHOTS/03-AFTER-INPUT.png" alt="Evolution 3 running in FUSE" width="230">](PROGRAMS/46-evolution-3/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **47. [Exocet](PROGRAMS/47-exocet/)**<br>Book pp. 231-233 | Fly in Exocet and score points during play. | [<img src="PROGRAMS/47-exocet/SCREENSHOTS/03-AFTER-INPUT.png" alt="Exocet running in FUSE" width="230">](PROGRAMS/47-exocet/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **48. [Energy Field](PROGRAMS/48-energy-field/)**<br>Book pp. 234-239 | Navigate the Energy Field game using keyboard controls. | [<img src="PROGRAMS/48-energy-field/SCREENSHOTS/03-AFTER-INPUT.png" alt="Energy Field running in FUSE" width="230">](PROGRAMS/48-energy-field/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **49. [Drag Racer](PROGRAMS/49-drag-racer/)**<br>Book pp. 240-243 | Drive a drag racer and watch the instruments respond. | [<img src="PROGRAMS/49-drag-racer/SCREENSHOTS/03-AFTER-INPUT.png" alt="Drag Racer running in FUSE" width="230">](PROGRAMS/49-drag-racer/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **50. [Moonlander](PROGRAMS/50-moonlander/)**<br>Book pp. 244-246 | Control a lunar landing while watching height and fuel. | [<img src="PROGRAMS/50-moonlander/SCREENSHOTS/02-AFTER-INPUT.png" alt="Moonlander running in FUSE" width="230">](PROGRAMS/50-moonlander/SCREENSHOTS/02-AFTER-INPUT.png) |
+| **51. [Anagrammatic](PROGRAMS/51-anagrammatic/)**<br>Book pp. 247-249 | Make letter arrangements from a chosen set of letters. | [<img src="PROGRAMS/51-anagrammatic/SCREENSHOTS/03-AFTER-INPUT.png" alt="Anagrammatic running in FUSE" width="230">](PROGRAMS/51-anagrammatic/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **52. [Stellar Run](PROGRAMS/52-stellar-run/)**<br>Book pp. 250-254 | Navigate a space course and avoid destruction. | [<img src="PROGRAMS/52-stellar-run/SCREENSHOTS/03-AFTER-INPUT.png" alt="Stellar Run running in FUSE" width="230">](PROGRAMS/52-stellar-run/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **53. [Russian Roulette](PROGRAMS/53-russian-roulette/)**<br>Book pp. 255-256 | Try your luck with a simulated revolver and score survival points. | [<img src="PROGRAMS/53-russian-roulette/SCREENSHOTS/02-SURVIVAL-RESULT.png" alt="Russian Roulette running in FUSE" width="230">](PROGRAMS/53-russian-roulette/SCREENSHOTS/02-SURVIVAL-RESULT.png) |
+| **54. [Swordsman](PROGRAMS/54-swordsman/)**<br>Book pp. 257-261 | Fight as a swordsman and watch the combat score. | [<img src="PROGRAMS/54-swordsman/SCREENSHOTS/02-SCORE-RESULT.png" alt="Swordsman running in FUSE" width="230">](PROGRAMS/54-swordsman/SCREENSHOTS/02-SCORE-RESULT.png) |
+| **55. [Hangman](PROGRAMS/55-hangman/)**<br>Book pp. 262-266 | Guess letters to reveal a hidden word. | [<img src="PROGRAMS/55-hangman/SCREENSHOTS/03-AFTER-INPUT.png" alt="Hangman running in FUSE" width="230">](PROGRAMS/55-hangman/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **56. [Roots](PROGRAMS/56-roots/)**<br>Book pp. 267-271 | Calculate square roots and enter further values. | [<img src="PROGRAMS/56-roots/SCREENSHOTS/03-AFTER-INPUT.png" alt="Roots running in FUSE" width="230">](PROGRAMS/56-roots/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **57. [Bulls And Cows](PROGRAMS/57-bulls-and-cows/)**<br>Book pp. 272-274 | Guess a four-digit code using bulls-and-cows clues. | [<img src="PROGRAMS/57-bulls-and-cows/SCREENSHOTS/03-AFTER-INPUT.png" alt="Bulls And Cows running in FUSE" width="230">](PROGRAMS/57-bulls-and-cows/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **58. [Invaders](PROGRAMS/58-invaders/)**<br>Book pp. 275-279 | Move and fire against invading aliens. | [<img src="PROGRAMS/58-invaders/SCREENSHOTS/03-AFTER-INPUT.png" alt="Invaders running in FUSE" width="230">](PROGRAMS/58-invaders/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **59. [Mushroom Invasion](PROGRAMS/59-mushroom-invasion/)**<br>Book pp. 280-282 | Leave the instruction screen and play Mushroom Invasion. | [<img src="PROGRAMS/59-mushroom-invasion/SCREENSHOTS/02-GAMEPLAY.png" alt="Mushroom Invasion running in FUSE" width="230">](PROGRAMS/59-mushroom-invasion/SCREENSHOTS/02-GAMEPLAY.png) |
+| **60. [Countabout](PROGRAMS/60-countabout/)**<br>Book pp. 283-290 | Count the houses shown and submit your answer. | [<img src="PROGRAMS/60-countabout/SCREENSHOTS/03-AFTER-INPUT.png" alt="Countabout running in FUSE" width="230">](PROGRAMS/60-countabout/SCREENSHOTS/03-AFTER-INPUT.png) |
+
+## Collection notes
+
+The BASIC listings are readable `.bas` files. The `.tzx` tapes are loadable ZX Spectrum tape images with automatic start disabled. Each program has its own README with controls and book pages. `KEYS-AND-TIMING.TXT` and `REPLAY.sh` explain how the pictured session was captured.
+
+Screenshots show selected program states, not a promise that every branch or ending has been tested. A Spectrum has enough quirks without us making up additional ones.
