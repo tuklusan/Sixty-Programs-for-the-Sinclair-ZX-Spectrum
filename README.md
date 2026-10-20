@@ -4,15 +4,77 @@
   <img src="images/sir-clive-sinclair-zx-spectrum.webp" alt="Sir Clive Sinclair with a Sinclair ZX Spectrum" width="420">
 </p>
 
-SANYALnet Labs presents all 60 programs from *Sixty Programs for the Sinclair ZX Spectrum* (1983), by Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews. The collection has plain-text Sinclair BASIC listings, ZX Spectrum tape images, instructions, and genuine FUSE screenshots. The computer has done the typing for you. It seemed only fair.
+In 1983, a computer could take a whole evening to type a program that lasted five minutes. One missed character might turn a space battle into a syntax error. The machine was rarely sympathetic.
 
-You can read the [book on the Internet Archive](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum), or see the [Spectrum Computing book entry](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum).
+SANYALnet Labs brings back all 60 programs from *Sixty Programs for the Sinclair ZX Spectrum*, published by Pan Books in 1983. Its writers were **Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews**. The book's ISBN is **0-330-28260-3**, and the [World of Spectrum catalog](https://worldofspectrum.org/archive/books/sixty-programs-for-the-sinclair-zx-spectrum) lists its 287-page edition. Our collection pairs readable Sinclair BASIC source with playable ZX Spectrum tapes, book page references, and genuine FUSE screenshots.
 
-## Running a program
+Read the [book on the Internet Archive](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum), or visit the [Spectrum Computing book entry](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum). The book explains the programs; the repository saves your fingers.
 
-Open its folder under [`PROGRAMS/`](PROGRAMS/). Each contains a `.bas` listing, a non-auto-run `.tzx` tape, `README.TXT`, `KEYS-AND-TIMING.TXT`, real FUSE screenshots, and a `REPLAY.sh` helper. Some include a separate introduction replay script.
+## Load it, LIST it, then run it
 
-In FUSE on a 48K Spectrum, attach the `.tzx` tape, load it with `LOAD ""`, then enter `RUN` after loading finishes. The tapes do not auto-run. Read each program's `README.TXT` for the book page numbers and controls. The replay script documents the recorded key sequence and timing; it is a Linux/FUSE helper, not a BASIC compiler.
+**The TZX tapes deliberately do not auto-run.** Once a tape finishes loading, the Spectrum stays at the BASIC prompt. We can type `LIST` to study the program before starting it. A screen full of source code is part of the fun, even when it scrolls past faster than expected.
+
+Choose a folder in [`PROGRAMS/`](PROGRAMS/). On a 48K ZX Spectrum in FUSE, attach its `.tzx` tape and load it with `LOAD ""`. Once loading is complete, type:
+
+```basic
+LIST
+```
+
+This shows the stored BASIC listing. To begin at a specific line, use `LIST 500`, replacing 500 with the desired line number. When you are ready to play, type:
+
+```basic
+RUN
+```
+
+The original [Sinclair BASIC manual](https://worldofspectrum.net/ZXBasicManual/zxmanchap2.html) explains `LIST`, `LIST n`, and `RUN`. The lack of auto-start is a deliberate choice. It keeps the source available for reading, learning, and editing before the first game begins. A tape that launches itself would skip the best part for curious programmers.
+
+Each folder contains its `.bas` listing, non-auto-run `.tzx` tape, `README.TXT` with book pages and controls, `KEYS-AND-TIMING.TXT`, genuine FUSE screenshots, and `REPLAY.sh`. Some have an extra introduction replay script. These Linux/FUSE helpers record the keys and timing used for the pictures. They are not BASIC compilers.
+
+## Small programs, long stories
+
+### Four writers, one rubber keyboard
+
+The [Science Museum](https://collection.sciencemuseumgroup.org.uk/objects/co62580/sinclair-zx-spectrum-microcomputer-1982-1985) preserves a 48K Spectrum from Sinclair's early-1980s home computer era. Its low price and built-in BASIC helped many people start programming at home. The [Raspberry Pi history of the Spectrum](https://www.raspberrypi.com/news/uncle-clives-greatest-hit-the-zx-spectrum/) describes a world where one programmer could write a game, copy a few cassettes, and advertise it in a magazine. Modest equipment, ambitious plans, and rather a lot of typing.
+
+The book's four writers also appear elsewhere in the Spectrum archives. World of Spectrum links [Paul Stanley](https://worldofspectrum.org/archive/people/paul-stanley) with *Minelay*, *Chomper*, and many action games. Its catalog links [Robert Erskine](https://worldofspectrum.org/archive/people/robert-erskine) with *Morse Tutor*, *Moonlander*, and *Asset Stripper*. [Michael Bews](https://worldofspectrum.org/archive/people/michael-bews) appears alongside *OXO*, *Numbers*, and *Critical Path Analysis*. [Humphrey Walwyn](https://worldofspectrum.org/archive/people/humphrey-walwyn) is listed with *Newmarket*, *Anagrammatic*, and *Countabout*. These are archive credits, not a claim about who typed each line.
+
+The same archive lists related books in German, Spanish, and Italian under those writers. The Italian title is *57 Programmi per Il Sinclair ZX Spectrum*. We can confirm the title, though not which three programs might have missed the journey.
+
+### Space Invaders, Galaxians, and the coin-op invasion
+
+The *Invaders* and *Galaxians* listings belong to the age of packed arcades. Taito's [Space Invaders history](https://spaceinvaders.square-enix-games.com/legacy) dates that landmark shooter to **1978**. Namco's [Galaxian history](https://galaga.com/en/history/galaxian.php) dates its game to **1979** and describes enemies that break formation to dive at the player. Once aliens learned to swoop, standing still became a poor career plan.
+
+The [Strong National Museum of Play](https://artsandculture.google.com/asset/arcade-game-galaxian/lgFWKbehK_wB7Q?hl=en) also records *Galaxian* and its colorful arcade graphics. These BASIC games sit in the same period of space-shooter fever. That does not mean the book's listings are official arcade conversions, or copies of their original code.
+
+### OXO: an opponent older than the Spectrum
+
+*OXO* plays noughts and crosses, a game with an unusually long computer life. In **1952**, Alexander S. Douglas wrote a version for Cambridge University's EDSAC computer. [Guinness World Records](https://www.guinnessworldrecords.com/world-records/first-strategy-game) lists it as an early computer strategy game. The Spectrum appeared three decades later, with a smaller keyboard and rather less floor space.
+
+The 1983 *OXO* listing is its own work. The EDSAC story shows that playing against a machine was already an old idea when this book reached the shops.
+
+### Biorhythms: pretty curves, poor predictions
+
+The *Biorhythms* listing plots a fashionable theory that life follows fixed **23-day, 28-day, and 33-day** physical, emotional, and intellectual cycles. The idea goes back to Wilhelm Fliess and became popular in the late 1960s and 1970s. The plotted curves are real mathematics. Their power to predict your day is a different question.
+
+A [1983 study of 610 top-ranked female athletes](https://pubmed.ncbi.nlm.nih.gov/15676482/) found no significant link between these cycles and peak performance. A later [review of 134 studies](https://pubmed.ncbi.nlm.nih.gov/9775660/) found that biorhythm theory was not valid. It remains an excellent period program to study, but a poor excuse for canceling a picnic.
+
+### Moonlander: the Space Age on a cassette
+
+*Moonlander* puts height and fuel on the screen and leaves the landing to the player. NASA's [Apollo 11 record](https://history.nasa.gov/wp-content/uploads/static/history/alsj/a11/a11ov.html) marks the first crewed Moon landing in **July 1969**. A preserved [Atari game timeline](https://archive.computerhistory.org/resources/access/text/2009/12/500004028.05.01.sm.pdf) dates the *Lunar Lander* arcade machine to **1979**.
+
+The book's program shares that era's fascination with landing safely. We do not present it as a copy of Atari's game. An approaching surface and a shrinking fuel supply can cause enough trouble on their own.
+
+### Morse Tutor: dots, dashes, and 1844
+
+*Morse Tutor* belongs beside the action games because a home computer could also be a classroom. The [International Telecommunication Union](https://www.itu.int/en/history/pages/ITUsHistory.aspx) records Samuel Morse's first telegraph message in **1844**. A code made for messages sent along wires had found another home, this time on a television.
+
+The program's reference chart is worth viewing even if no one intends to send a telegram. The dots and dashes have outlasted an impressive collection of communication gadgets.
+
+### Critical Path Analysis: office work visits the arcade
+
+*Critical Path Analysis* draws on a planning method developed in the **1950s**. In their [history of the method](https://www.pmi.org/learning/library/2019/04/07/15/10/origins-cpm-personal-history-3762), James Kelley and Morgan Walker trace its development to work with DuPont and Remington Rand. Engineers needed to schedule large construction and maintenance jobs, where one late task could hold up the rest.
+
+By 1983, such planning could fit into a BASIC listing next to *Motocross*. Our Spectrum could plan a job, then go racing. The deadlines were probably less fun than the crashes.
 
 ## All 60 programs
 
@@ -33,7 +95,7 @@ The images are taken from the collection's FUSE sessions. Select a title to open
 | **11. [Defend](PROGRAMS/11-defend/)**<br>Book pp. 53-57 | Defend a terrain-based field against moving aliens. | [<img src="PROGRAMS/11-defend/SCREENSHOTS/03-AFTER-INPUT.png" alt="Defend running in FUSE" width="230">](PROGRAMS/11-defend/SCREENSHOTS/03-AFTER-INPUT.png) |
 | **12. [Flying Bomb](PROGRAMS/12-flying-bomb/)**<br>Book pp. 58-60 | Pilot an aircraft and choose when to drop a bomb. | [<img src="PROGRAMS/12-flying-bomb/SCREENSHOTS/02-AFTER-INPUT.png" alt="Flying Bomb running in FUSE" width="230">](PROGRAMS/12-flying-bomb/SCREENSHOTS/02-AFTER-INPUT.png) |
 | **13. [Radio Power](PROGRAMS/13-radio-power/)**<br>Book pp. 61-69 | Enter a radio station and inspect the resulting coverage map. | [<img src="PROGRAMS/13-radio-power/SCREENSHOTS/03-AFTER-INPUT.png" alt="Radio Power running in FUSE" width="230">](PROGRAMS/13-radio-power/SCREENSHOTS/03-AFTER-INPUT.png) |
-| **14. [Scuba](PROGRAMS/14-scuba/)**<br>Book pp. 70-76 | Explore underwater and catch fish while keeping count. | [<img src="PROGRAMS/14-scuba/SCREENSHOTS/03-AFTER-INPUT.png" alt="Scuba running in FUSE" width="230">](PROGRAMS/14-scuba/SCREENSHOTS/03-AFTER-INPUT.png) |
+| **14. [Scuba](PROGRAMS/14-scuba/)**<br>Book pp. 70-76 | Swim underwater and catch fish while keeping count. | [<img src="PROGRAMS/14-scuba/SCREENSHOTS/03-AFTER-INPUT.png" alt="Scuba running in FUSE" width="230">](PROGRAMS/14-scuba/SCREENSHOTS/03-AFTER-INPUT.png) |
 | **15. [Endings](PROGRAMS/15-endings/)**<br>Book pp. 77-82 | Take turns building words in a game against the computer. | [<img src="PROGRAMS/15-endings/SCREENSHOTS/01-COMPUTER-RESPONSE.png" alt="Endings running in FUSE" width="230">](PROGRAMS/15-endings/SCREENSHOTS/01-COMPUTER-RESPONSE.png) |
 | **16. [Snap](PROGRAMS/16-snap/)**<br>Book pp. 83-86 | Play a picture-based matching game and respond with the keyboard. | [<img src="PROGRAMS/16-snap/SCREENSHOTS/02-AFTER-INPUT.png" alt="Snap running in FUSE" width="230">](PROGRAMS/16-snap/SCREENSHOTS/02-AFTER-INPUT.png) |
 | **17. [Paypackets](PROGRAMS/17-paypackets/)**<br>Book pp. 87-90 | Calculate pay packets from an entered amount and packet count. | [<img src="PROGRAMS/17-paypackets/SCREENSHOTS/01-PAYMENT-SCREEN.png" alt="Paypackets running in FUSE" width="230">](PROGRAMS/17-paypackets/SCREENSHOTS/01-PAYMENT-SCREEN.png) |
@@ -81,8 +143,10 @@ The images are taken from the collection's FUSE sessions. Select a title to open
 | **59. [Mushroom Invasion](PROGRAMS/59-mushroom-invasion/)**<br>Book pp. 280-282 | Leave the instruction screen and play Mushroom Invasion. | [<img src="PROGRAMS/59-mushroom-invasion/SCREENSHOTS/02-GAMEPLAY.png" alt="Mushroom Invasion running in FUSE" width="230">](PROGRAMS/59-mushroom-invasion/SCREENSHOTS/02-GAMEPLAY.png) |
 | **60. [Countabout](PROGRAMS/60-countabout/)**<br>Book pp. 283-290 | Count the houses shown and submit your answer. | [<img src="PROGRAMS/60-countabout/SCREENSHOTS/03-AFTER-INPUT.png" alt="Countabout running in FUSE" width="230">](PROGRAMS/60-countabout/SCREENSHOTS/03-AFTER-INPUT.png) |
 
-## Collection notes
+## Notes on the collection
 
-The BASIC listings are readable `.bas` files. The `.tzx` tapes are loadable ZX Spectrum tape images with automatic start disabled. Each program has its own README with controls and book pages. `KEYS-AND-TIMING.TXT` and `REPLAY.sh` explain how the pictured session was captured.
+The `.bas` listings can be studied in a text editor or with `LIST` on the Spectrum. The `.tzx` tapes preserve the programs and supplementary data while leaving automatic start switched off. Each folder's `README.TXT` identifies its book pages and controls, while `KEYS-AND-TIMING.TXT` and `REPLAY.sh` record the pictured FUSE session.
 
-Screenshots show selected program states, not a promise that every branch or ending has been tested. A Spectrum has enough quirks without us making up additional ones.
+Every catalog screenshot is from a genuine FUSE run. These pictures show selected program states and key responses, not every route or ending. Our short demonstrations show the programs at work, rather than spending a lifetime chasing every high score.
+
+The history links above describe the people, machines, ideas, and earlier games around this 1983 book. They do not mean that the Spectrum listings were official arcade ports. Where the records run out, the story ends. History has enough odd twists without us inventing extra ones.
