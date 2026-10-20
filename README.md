@@ -1,16 +1,16 @@
-# Sinclair ZX Spectrum 16K Type-In Vault (.TAP Edition)
+# Sinclair ZX Spectrum Sinclair BASIC Source Code Vault
 
 Wagwan, fam. Picture the scene. It’s 1983. You’ve got a rubber-keyed ZX Spectrum humming away with a massive 16K of RAM. Absolute top tier.
 
 Back then, legends like Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews dropped a mad book filled with brilliant code. But there was a massive catch. You had to sit there for hours typing out every single line of Sinclair BASIC by hand. Peak suffering, innit. One typo and your rocket explodes.
 
-Not anymore, bruv. We’ve pulled these straight off the disk copies, audited the whole collection thrice to fix any gaps, and packaged everything into crisp `.TAP` files. Zero typing. Just pure 8-bit retro vibes.
+Not anymore, bruv. There are no binary tape images here—this is a clean source code repository containing the raw **Sinclair BASIC source files**. We’ve pulled these straight off the disk copies, audited the entire collection thrice to plug any gaps, and laid out the plain-text source code for you to inspect, modify, and hack. Pure 8-bit retro engineering.
 
 ---
 
-## The Drop: All 60 Programs Audited Thrice
+## The Drop: All 60 Source Code Files Audited Thrice
 
-Every single file here has been checked over three times straight from the disk copies so nothing's missing or clapped out.
+Every single file here has been checked over three times straight from the disk copies so nothing's missing, corrupted, or clapped out.
 
 * **Alien**: Blast off incoming extraterrestrial threats.
 
@@ -195,12 +195,10 @@ Every single file here has been checked over three times straight from the disk 
 
 ---
 
-## How to Run This Madness
+## How to Work With These Source Files
 
-Don't stress, blud. You don't need a clapped-out tape deck that squeaks.
+Don't stress, blud. Since these are raw Sinclair BASIC source code files rather than closed tape binaries, you can read, study, or compile them directly:
 
-1. Grab a solid emulator like **Fuse** or **Spectaculator**.
-2. Drop any `.TAP` file straight into the emulator window.
-
-
-3. Hit run and enjoy the 1983 tech. Safe.
+1. Clone or download this source code repository.
+2. Open the individual BASIC source files in any standard text editor to read or modify the 1980s code logic.
+3. Use modern ZX Spectrum development tools (like `BAS2TAP` or cross-compilers) to tokenize the source files into executable formats if you want to run them on an emulator. Safe.
