@@ -6,7 +6,7 @@
 
 Wagwan, fam. Picture the scene. It’s 1983. You’ve got a rubber-keyed ZX Spectrum humming away with a massive 16K of RAM. Absolute top tier.
 
-Back then, legends like Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews dropped a [mad book](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum) filled with brilliant code. But there was a massive catch. You had to sit there for hours typing out every single line of Sinclair BASIC by hand. Peak suffering, innit. One typo and your rocket explodes.
+Back then, legends like Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews dropped a [mad book](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum) [(also available here)](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum) filled with brilliant code. But there was a massive catch. You had to sit there for hours typing out every single line of Sinclair BASIC by hand. Peak suffering, innit. One typo and your rocket explodes.
 
 Not anymore, bruv. There are no binary tape images here—this is a clean source code repository containing the raw **Sinclair BASIC source files**. We’ve pulled these straight off the disk copies, audited the entire collection thrice to plug any gaps, and laid out the plain-text source code for you to inspect, modify, and hack. Pure 8-bit retro engineering.
 
