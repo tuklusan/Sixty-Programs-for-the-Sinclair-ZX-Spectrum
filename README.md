@@ -1,5 +1,9 @@
 # Sinclair ZX Spectrum Sinclair BASIC Source Code Vault
 
+<p align="center">
+  <img src="images/sir-clive-sinclair-zx-spectrum.webp" alt="Sir Clive Sinclair holding a Sinclair ZX Spectrum computer" width="420">
+</p>
+
 Wagwan, fam. Picture the scene. It’s 1983. You’ve got a rubber-keyed ZX Spectrum humming away with a massive 16K of RAM. Absolute top tier.
 
 Back then, legends like Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews dropped a mad book filled with brilliant code. But there was a massive catch. You had to sit there for hours typing out every single line of Sinclair BASIC by hand. Peak suffering, innit. One typo and your rocket explodes.
