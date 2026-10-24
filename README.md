@@ -6,7 +6,7 @@
 
 In 1983, a computer could take a whole evening to type a program that lasted five minutes. One missed character might turn a space battle into a syntax error. The machine was rarely sympathetic.
 
-SANYALnet Labs brings back all 60 programs from *Sixty Programs for the Sinclair ZX Spectrum*, published by Pan Books in 1983. Its writers were **Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews**. The book's ISBN is **0-330-28260-3**, and the [World of Spectrum catalog](https://worldofspectrum.org/archive/books/sixty-programs-for-the-sinclair-zx-spectrum) lists its 287-page edition. Our collection pairs readable Sinclair BASIC source with playable ZX Spectrum tapes, book page references, and genuine FUSE screenshots.
+SANYALnet Labs brings back all 60 programs from *Sixty Programs for the Sinclair ZX Spectrum*, published by Pan Books in 1983. Its writers were **Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews**. The book's ISBN is **0-330-28260-3**, and the [World of Spectrum catalog](https://worldofspectrum.org/archive/books/sixty-programs-for-the-sinclair-zx-spectrum) lists its 287-page edition. Our collection pairs **60 downloadable ZX Spectrum BASIC `.bas` listings** with **TZX cassette tape images**, book page references, an online ZX Spectrum emulator, and genuine FUSE screenshots.
 
 Read the [book on the Internet Archive](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum), or visit the [Spectrum Computing book entry](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum). The book explains the programs; the repository saves your fingers.
 
@@ -29,6 +29,22 @@ RUN
 The original [Sinclair BASIC manual](https://worldofspectrum.net/ZXBasicManual/zxmanchap2.html) explains `LIST`, `LIST n`, and `RUN`. The lack of auto-start is a deliberate choice. It keeps the source available for reading, learning, and editing before the first game begins. A tape that launches itself would skip the best part for curious programmers.
 
 Each folder contains its `.bas` listing, non-auto-run `.tzx` tape, `README.TXT` with book pages and controls, `KEYS-AND-TIMING.TXT`, genuine FUSE screenshots, and `REPLAY.sh`. Some have an extra introduction replay script. These Linux/FUSE helpers record the keys and timing used for the pictures. They are not BASIC compilers.
+
+## Extracting ZX Spectrum BASIC from the TZX tapes
+
+The readable `.bas` listings in [`PROGRAMS/`](PROGRAMS/) were recovered from the tokenized Sinclair BASIC stored in the `.tzx` tapes with **[`zx-tzx2bas.py`](zx-tzx2bas.py)**, our Python 3 TZX-to-BAS extraction script. We checked all 60 listings against the tool's output. Every one matched, allowing for the ZIP's Windows-style CRLF line endings. The tapes are preserved; this extraction step needs no OCR or hand-typed keyword guesses.
+
+The script follows the **ZX Spectrum 48K ROM `LLIST` formatting rules**, using an embedded copy of the ROM keyword table to recover readable BASIC source. It uses `{HH}` escapes for character bytes that are unsafe to place directly in ASCII text. The original `.tzx` files remain essential: an exported listing is not a byte-for-byte replacement for the tokenized tape.
+
+### Convert a ZX Spectrum TZX tape to a BAS listing with Python
+
+Run this example from the repository root with Python 3:
+
+```sh
+python3 zx-tzx2bas.py PROGRAMS/01-minelay/01-minelay.tzx -o 01-minelay-extracted.bas
+```
+
+The extractor uses only the Python standard library. The `-o` option writes a new file and refuses to overwrite an existing file. Omit `-o` to print the BASIC listing to the terminal. See **[the Python TZX-to-BAS script](zx-tzx2bas.py)** for its implementation and command-line options.
 
 ## Small programs, long stories
 
