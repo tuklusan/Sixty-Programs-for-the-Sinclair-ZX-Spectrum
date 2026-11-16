@@ -8,6 +8,8 @@ In 1983, a computer could take a whole evening to type a program that lasted fiv
 
 SANYALnet Labs brings back all 60 programs from *Sixty Programs for the Sinclair ZX Spectrum*, published by Pan Books in 1983. Its writers were **Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews**. The book's ISBN is **0-330-28260-3**, and the [World of Spectrum catalog](https://worldofspectrum.org/archive/books/sixty-programs-for-the-sinclair-zx-spectrum) lists its 287-page edition. Our collection pairs **60 downloadable ZX Spectrum BASIC `.bas` listings** with **TZX cassette tape images**, book page references, an online ZX Spectrum emulator, and genuine FUSE screenshots.
 
+This project was conceived to test the 'rbc' SINCLAIR ZX SPECTRUM BASIC COMPILER of the SDK of [ZX-UX: UNIX Operating System for Sinclair ZX Spectrum 48K](https://github.com/tuklusan/ZX-UX-The-ZX-Spectrum-48K-Unix-Project).
+
 Read the [book on the Internet Archive](https://archive.org/details/sixty-programs-for-the-sinclair-zx-spectrum), or visit the [Spectrum Computing book entry](https://spectrumcomputing.co.uk/entry/2000018/Book/Sixty_Programs_for_the_Sinclair_ZX_Spectrum). The book explains the programs; the repository saves your fingers.
 
 ## Load it, LIST it, then run it
