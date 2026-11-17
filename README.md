@@ -168,3 +168,10 @@ The `.bas` listings can be studied in a text editor or with `LIST` on the Spectr
 Every catalog screenshot is from a genuine FUSE run. These pictures show selected program states and key responses, not every route or ending. Our short demonstrations show the programs at work, rather than spending a lifetime chasing every high score.
 
 The history links above describe the people, machines, ideas, and earlier games around this 1983 book. They do not mean that the Spectrum listings were official arcade ports. Where the records run out, the story ends. History has enough odd twists without us inventing extra ones.
+
+## AI disclosure
+
+The 60 Sinclair BASIC programs and tokenized `.tzx` cassette images in `PROGRAMS/` preserve the 1983 Pan Books listings by Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews—they were not written or altered by AI.
+
+Generative AI coding agents assisted with the modern repository tooling and documentation, including the `zx-tzx2bas.py` TZX-to-BAS extractor, FUSE automation/replay helpers (`REPLAY.sh` and `KEYS-AND-TIMING.TXT`), per-program `README.TXT` summaries, and this catalog prose. All 60 extracted `.bas` listings were deterministically verified against the original tape data, and every screenshot was captured from a live run in FUSE.
+
