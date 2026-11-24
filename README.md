@@ -173,5 +173,4 @@ The history links above describe the people, machines, ideas, and earlier games 
 
 The 60 Sinclair BASIC programs and tokenized `.tzx` cassette images in `PROGRAMS/` preserve the 1983 Pan Books listings by Robert Erskine, Humphrey Walwyn, Paul Stanley, and Michael Bews—they were not written or altered by AI.
 
-Generative AI coding agents assisted with the modern repository tooling and documentation, including the `zx-tzx2bas.py` TZX-to-BAS extractor, FUSE automation/replay helpers (`REPLAY.sh` and `KEYS-AND-TIMING.TXT`), per-program `README.TXT` summaries, and this catalog prose. All 60 extracted `.bas` listings were deterministically verified against the original tape data, and every screenshot was captured from a live run in FUSE.
-
+Generative AI coding agents assisted with the modern repository tooling and documentation. The purpose of this project was to collect one of the sets of Sinclair BASIC programs to exercise and stabilize the rbc BASIC compiler included in the SDK of [ZX-UX](https://github.com/tuklusan/ZX-UX-The-ZX-Spectrum-48K-Unix-Project). Not all programs could be compiled for ZX-UX; successfully compiled BASIC programs are included in the examples that ship with ZX-UX.
